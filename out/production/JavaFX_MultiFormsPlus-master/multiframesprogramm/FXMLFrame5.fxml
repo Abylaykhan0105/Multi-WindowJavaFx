@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiframesprogramm.FXMLFrame5Controller">
+    <children>
+        <Button fx:id="frame5backbutton" layoutX="24.0" layoutY="520.0" mnemonicParsing="false" onAction="#frame5backbutton_action" prefHeight="38.0" prefWidth="150.0" text="Назад">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="frame5nextbutton" layoutX="671.0" layoutY="520.0" mnemonicParsing="false" onAction="#frame5nextbutton_action" prefHeight="38.0" prefWidth="150.0" text="Далее">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Label fx:id="sliderLabel" layoutX="194.0" layoutY="520.0" prefHeight="39.0" prefWidth="463.0" text="Выбрано: " wrapText="true">
+            <font>
+                <Font name="Times New Roman Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="14.0" prefHeight="39.0" prefWidth="574.0" text="Укажите желаемую цену:">
+            <font>
+                <Font name="Times New Roman Bold" size="18.0" />
+            </font>
+        </Label>
+        <Slider fx:id="slider" blockIncrement="1000.0" layoutX="56.0" layoutY="267.0" majorTickUnit="20000.0" max="100000.0" min="5000.0" minorTickCount="5" prefHeight="38.0" prefWidth="738.0" showTickLabels="true" showTickMarks="true" />
+    </children>
+</AnchorPane>
